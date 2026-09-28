@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f6f8;
+    color: #1f2937;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px, 20px;
+}
+
+.application-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 12px;
+
+}
+
+.stats {
+    display: flex;
+    gap: 12px;
+}
+
+.stats p {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+}
+
+#application-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    list-style: none;
+}
+
+#application-list li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#application-list button {
+    background-color:darkred ;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.application-form input, .application-form select {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+}
+
+#application-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
